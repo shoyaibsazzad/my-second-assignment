@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.home {
+  color: #252432;
+  font-size: 20px;
+}
+.shop-us{
+    color: rgba(137, 135, 161, 1);
+
+}
+
+/* navigetion bar */
+.nav-bar {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 48px;
+}
