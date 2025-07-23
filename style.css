@@ -126,10 +126,27 @@ body {
   font-weight: bold;
   color: black;
 }
-.content-description{
-    font-size: 22px;
-    color:rgba(0, 0, 0, 0.5) ;
-    margin-top: 10px;
-    
+.content-description {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
 }
+/* ******deals******** */
+.deals{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
 
+}
+.deals-tytle{
+    font-size: 50px;
+    font-weight: bold;
+}
+.deals-description{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 1px;
+
+}
