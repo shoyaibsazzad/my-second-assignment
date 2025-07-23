@@ -16,9 +16,8 @@ body {
   color: #252432;
   font-size: 20px;
 }
-.shop-us{
-    color: rgba(137, 135, 161, 1);
-
+.shop-us {
+  color: rgba(137, 135, 161, 1);
 }
 
 /* navigetion bar */
@@ -32,20 +31,76 @@ body {
 }
 
 /* *******banner styles****** */
-.banner{
-    height: 461px;
-    align-items: end;
+.banner {
+  height: 461px;
+  align-items: end;
+}
+.banner-left h2 {
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.color-yellwo {
+  color: rgba(233, 90, 8, 1);
+}
+.banner-left p {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* ******our plants****** */
+.plants-conainer {
+}
 
+.plants-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
-.banner-left h2{
-    font-size:65px;
-    font-weight:bold ;
-    margin-bottom: 10px;
+.plants-tytle {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 5px;
 }
-#fresh-flowers{
-    color:rgba(233, 90, 8, 1.00);
+
+/* ********card******** */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px 20px ;
 }
-.banner-left p{
-    color: rgba(0, 0, 0, 0.5);
-    fo22px
+.card {
+  width: 270px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  align-self: stretch;
+  flex-grow: 0;
+  
+}
+.card img {
+  width: 270px;
+  height: 320px;
+}
+.image-name {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(17, 17, 17, 1);
+  margin-bottom: 5px;
+}
+.image-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(17, 17, 17, 1);
+  margin-top: 5px;
+}
+.btn {
+  background-color: rgba(233, 90, 8, 1);
+  padding: 26px 50px;
+  color: white;
+  width: 100%;
 }
