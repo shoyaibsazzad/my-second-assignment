@@ -47,8 +47,6 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 /* ******our plants****** */
-.plants-conainer {
-}
 
 .plants-content {
   display: flex;
@@ -65,10 +63,10 @@ body {
 }
 
 /* ********card******** */
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap:10px 20px ;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 20px;
 }
 .card {
   width: 270px;
@@ -80,7 +78,6 @@ body {
   margin: 30px 0px;
   align-self: stretch;
   flex-grow: 0;
-  
 }
 .card img {
   width: 270px;
@@ -104,3 +101,35 @@ body {
   color: white;
   width: 100%;
 }
+
+/* ******plants lover****** */
+.plants-lover {
+  height: 597px;
+  margin-top: 200px;
+}
+.image-left img {
+  width: 540px;
+  height: 100%;
+}
+.content-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  gap: 20px;
+  padding: 0;
+  position: static;
+  width: 580px;
+  height: 108px;
+}
+.lover {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+.content-description{
+    font-size: 22px;
+    color:rgba(0, 0, 0, 0.5) ;
+    margin-top: 10px;
+    
+}
+
