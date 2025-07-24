@@ -1,7 +1,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: #c4c4c4;
+  /* background-color: #c4c4c4; */
 }
 
 /* shared styles */
@@ -100,6 +100,7 @@ body {
   padding: 26px 50px;
   color: white;
   width: 100%;
+  border: none;
 }
 
 /* ******plants lover****** */
@@ -118,7 +119,7 @@ body {
   gap: 20px;
   padding: 0;
   position: static;
-  /* width: 580px; */
+  max-width: 580px;
   max-height: 108px;
 }
 .lover {
@@ -214,7 +215,8 @@ body {
   background-position: center;
   position: relative;
   height: 533px;
-  width: 1440px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -267,7 +269,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
 }
-.footer-middle p{
+.footer-middle p {
   color: rgba(0, 0, 0, 0.5);
 }
 .footer-right {
@@ -275,4 +277,36 @@ body {
   align-self: start;
   text-align: center;
   gap: 0 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 250px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 20px;
+  }
+  .plants-lover {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 800px;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
 }
