@@ -118,8 +118,8 @@ body {
   gap: 20px;
   padding: 0;
   position: static;
-  width: 580px;
-  height: 108px;
+  /* width: 580px; */
+  max-height: 108px;
 }
 .lover {
   font-size: 50px;
@@ -132,21 +132,77 @@ body {
   margin-top: 10px;
 }
 /* ******deals******** */
-.deals{
-    display: flex;
+.deals {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 60px auto;
-
 }
-.deals-tytle{
-    font-size: 50px;
-    font-weight: bold;
+.deals-tytle {
+  font-size: 50px;
+  font-weight: bold;
 }
-.deals-description{
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-top: 1px;
+.deals-description {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 1px;
+}
+/* *****challenge***** */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+}
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.promo-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo-text {
+  position: relative;
+  z-index: 1;
+}
+.promo-text h2,
+.promo-text p {
+  margin: 0;
+}
+.promo-text h2 {
+  font-weight: bold;
+}
+.promo-text a {
+  color: white;
+}
+.promo-big-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  text-align: center;
 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo-big-card > .promo-text h2{
+    font-size: 40px;
+}
+.promo-big-card > .promo-text a{
+    font-weight: 600;
+    font-size: 28px;
 }
