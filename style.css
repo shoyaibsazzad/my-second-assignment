@@ -214,7 +214,7 @@ body {
   background-position: center;
   position: relative;
   height: 533px;
-  width: 1440px ;
+  width: 1440px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,5 +244,35 @@ body {
   color: white;
   background-color: rgba(233, 90, 8, 1);
   border: none;
-  
+}
+/* ******footer***** */
+.footer {
+  justify-content: space-around;
+
+  align-items: center;
+
+  margin: 30px auto;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-left p {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: auto;
+}
+.footer-middle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+}
+.footer-middle p{
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-right {
+  justify-content: center;
+  align-self: start;
+  text-align: center;
+  gap: 0 50px;
 }
